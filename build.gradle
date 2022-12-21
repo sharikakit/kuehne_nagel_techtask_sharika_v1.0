@@ -12,11 +12,10 @@ repositories {
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.4.2")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.4.2")
-//    testImplementation 'junit:junit:4.13'
-//    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
     testImplementation 'org.assertj:assertj-core:3.21.0'
     testImplementation 'org.awaitility:awaitility:4.2.0'
+    testImplementation 'io.qameta.allure:allure-junit4:2.12.1'
 }
 
 test {
